@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Headlines</string>
+
+    <string-array name="spinner">
+        <item>None</item>
+        <item>General</item>
+        <item>Business</item>
+        <item>Sports</item>
+        <item>Gaming</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD"
+    tools:context="com.example.yaaaxidagar.headlinestoday.MainActivity">
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:padding="16dp"
+        android:text="Proceed"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_above="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:id="@+id/text"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/proceed"
+            android:text="Select Category:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_marginTop="3dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/text"
+            android:layout_above="@+id/proceed"
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="0dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/copyRight"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="© Yashesh Dagar"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

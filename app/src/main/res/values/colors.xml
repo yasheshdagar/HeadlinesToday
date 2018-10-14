@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#546E7A</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#000000</color>
+    <color name="sports_background">#4FC3F7</color>
+    <color name="sports_layout_background">#81D4FA</color>
+    <color name="business_background">#4DB6AC</color>
+    <color name="business_layout_background">#80CBC4</color>
+    <color name="gaming_background">#FFC400</color>
+    <color name="gaming_layout_background">#FFD740</color>
+    <color name="general_background">#00E5FF</color>
+    <color name="general_layout_background">#18FFFF</color>
+</resources>
